@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="Windows Script Host">
+	<job>
+		<script language="JScript">
+			var TargetDir;
+			var FSO = WScript.CreateObject("Scripting.FileSystemObject");
+
+			TargetDir = "Debug\\";
+			if (!FSO.FolderExists(TargetDir))
+			{
+				FSO.CreateFolder(TargetDir);
+			}
+			FSO.CopyFile("*.dll", TargetDir);
+
+			TargetDir = "Release\\";
+			if (!FSO.FolderExists(TargetDir))
+			{
+				FSO.CreateFolder(TargetDir);
+			}
+			FSO.CopyFile("*.dll", TargetDir);
+		</script>
+	</job>
+</package>
