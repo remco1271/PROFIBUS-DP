@@ -1,6 +1,6 @@
-﻿Microsoft Visual Studio Solution File, Format Version 11.00
+Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProfDpTest", "ProfDpTest.csproj", "{4E89D445-273E-0C60-2058-3A150B4B1C59}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ProfDpTest", "ProfDpTest.vbproj", "{FCAD552E-EB66-4391-A200-F06B69DC28F9}"
 	ProjectSection(ProjectDependencies) = postProject
 		{62E404C2-6297-42B6-9753-336A402C4E30} = {62E404C2-6297-42B6-9753-336A402C4E30}
 	EndProjectSection
@@ -13,10 +13,10 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4E89D445-273E-0C60-2058-3A150B4B1C59}.Debug|Win32.ActiveCfg = Debug|x86
-		{4E89D445-273E-0C60-2058-3A150B4B1C59}.Debug|Win32.Build.0 = Debug|x86
-		{4E89D445-273E-0C60-2058-3A150B4B1C59}.Release|Win32.ActiveCfg = Release|x86
-		{4E89D445-273E-0C60-2058-3A150B4B1C59}.Release|Win32.Build.0 = Release|x86
+		{FCAD552E-EB66-4391-A200-F06B69DC28F9}.Debug|Win32.ActiveCfg = Debug|x86
+		{FCAD552E-EB66-4391-A200-F06B69DC28F9}.Debug|Win32.Build.0 = Debug|x86
+		{FCAD552E-EB66-4391-A200-F06B69DC28F9}.Release|Win32.ActiveCfg = Release|x86
+		{FCAD552E-EB66-4391-A200-F06B69DC28F9}.Release|Win32.Build.0 = Release|x86
 		{62E404C2-6297-42B6-9753-336A402C4E30}.Debug|Win32.ActiveCfg = Debug|Win32
 		{62E404C2-6297-42B6-9753-336A402C4E30}.Debug|Win32.Build.0 = Debug|Win32
 		{62E404C2-6297-42B6-9753-336A402C4E30}.Release|Win32.ActiveCfg = Release|Win32
